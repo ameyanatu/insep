@@ -1,0 +1,19 @@
+{
+    "name": "Insep",
+    "version": "0.0.1",
+    "description": "Convert Current Tab into InCognito Tab",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "action": {
+        "default_title": "Insep"
+    },
+    "icons": {
+        "32": "/assets/icons8-hide-32.png",
+        "100": "/assets/icons8-hide-100.png"
+    }
+}
